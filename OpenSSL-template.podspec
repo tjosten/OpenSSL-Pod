@@ -87,9 +87,6 @@ Pod::Spec.new do |s|
 
   s.ios.platform            = :ios
   s.ios.public_header_files = "opensslIncludes/openssl/*.h"
-#  s.ios.vendored_libraries  = "lib/libcrypto.a", "lib/libssl.a"
-
-  s.libraries             = 'crypto', 'ssl'
   s.requires_arc          = false
 
 end
